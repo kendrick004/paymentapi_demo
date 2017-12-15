@@ -15,6 +15,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+// setup session key
+// NOTE: this is not production ready
+// for demo purposes only
 app.use(session({
     secret: 'secret.key.resides.here',
     saveUninitialized: false,
