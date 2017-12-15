@@ -4,7 +4,7 @@
   "description": "Payment Service",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "nodemon app.js"
   },
   "keywords": [
     "Payment",
